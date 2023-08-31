@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO_DO LIST</title>
+    <link rel="stylesheet" href="to_do.css">
+</head>
+<body align="center">
+<div class="div1">
+    <h1  style="color: red;">TO DO LIST</h1>
+    <form name="myForm" >
+        <b style="font-size: 20px;">Enter title</b><br><br> 
+        <input type="text" placeholder="Enter Title" id="title" required/>  
+        <br><br><br><br>
+        <b style="font-size: 20px;">Enter description</b><br><br>
+        <textarea rows="10" cols="50" id="description" placeholder="Type Your Description"></textarea> 
+       
+        <div id="blank"></div>
+        <br>
+        <button type="button" id="btn" onclick="add1()" ><b>SAVE</b></button><br><br><br>
+    </form>
+</div>
+        <div id="addedtasks">
+            <div id="${c}" class="tasks" >
+                <div id="tit" ><b>Title</b></div>
+                <div id="des" ><b>Description</b></div>
+                <div><b>Status</b></div>
+                <b>Delete</b>
+            </div>
+        </div>
+</body>
+<script src="to_do.js"></script>
+</html>

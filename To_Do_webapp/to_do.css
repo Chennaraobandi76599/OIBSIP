@@ -1,0 +1,61 @@
+body{
+    background-color: orange;
+}
+.div1
+{
+    width: 30%;
+    margin: auto auto;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+#addedtasks{
+    width: 30%;
+    margin: auto auto;
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(144, 235, 245);
+    
+    
+}
+.tasks{
+    display: grid;
+    word-break: keep-all;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    padding-right: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#btn{
+    color: white;
+    background-color: rgb(43, 220, 27); 
+}
+#btn:hover
+{
+    color: black;
+    background-color: rgb(189, 237, 15);
+}
+button
+{
+    border-radius: 25px;
+    width:130px; 
+    height:40px;
+}
+form 
+{
+    font-family: monospace;
+}
+input{
+    height: 25px;
+}
+#blank{
+    margin-top: 10px;
+     color:red;
+}
